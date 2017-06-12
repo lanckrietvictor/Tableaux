@@ -1,0 +1,130 @@
+body {
+	background-color: #b7b7b7;
+}
+
+tr, td, th {
+	border: solid 1px;
+}
+
+p {
+	margin: 0;
+}
+
+#table {
+	top: 0;
+	background-color: #f1f1f1;
+	left: 0;
+	right: 0;
+	height: 85vh;
+	width: 75vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+	border-collapse: 0;
+	border-spacing: 0 0;
+	padding: 2.5vh;
+}
+
+#name {
+	width: 30vh;
+	font-size: 3vh;
+}
+
+#occupation {
+	font-size: 2vh;
+}
+
+#nameandoccupation {
+	text-align: left;
+	vertical-align: top;
+	width: 31.5vh;
+}
+
+.whitespace {
+	color: #f1f1f1;
+	font-size: 0.5vh;
+}
+
+#general {
+	height: 15vh;
+}
+
+.contact {
+	height: 3vh;
+	font-size: 2vh;
+}
+
+.icon {
+	width: 3vh; 
+	text-align: center;
+}
+
+#work {
+	height: 30vh;
+	font-size: 1.5vh;
+}
+
+.date {
+	vertical-align: top;
+}
+
+#colspan {
+	text-align: left;
+	vertical-align: top;
+	width: 15.75vh;
+}
+
+#colspan2 {
+	text-align: left;
+	vertical-align: top;
+	width: 15.75vh;
+}
+
+.good, .average, .skill {
+	width: 5.25vh;
+	text-align: center;
+}
+
+#skillset {
+	border-spacing: 0;
+	border-spacing: 0;
+}
+
+#skills {
+	vertical-align: top;
+}
+
+.line td{
+	border-bottom-color: #3D91CD;
+	height: 1em;
+}
+
+#skillset td {
+	border-bottom: 1px solid #f1f1f1;
+	border-top: 1px solid #f1f1f1;
+}
+
+.low .good {
+	background-color: #3D91CD;
+}
+
+.medium .good, .medium .average {
+	background-color: #3D91CD;
+}
+
+.high .good, .high .average, .high .skilled {
+	background-color: #3D91CD;
+}
+
+.left {
+	text-align: right;
+}
+
+#workplay td {
+	width: 8vh;
+}
+
+#education {
+	border: solid 1px black;
+}

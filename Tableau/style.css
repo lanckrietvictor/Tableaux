@@ -1,0 +1,29 @@
+table, th, td {
+	border: 1px solid black;
+}
+
+caption {
+	text-align: left;
+	font-weight: bold;
+}
+
+td, th {
+	text-align: center;
+	border-radius: 5%;
+}
+
+tr {
+	min-height: 2em;
+}
+
+tr#even {
+	background-color: #E8E8EE;
+}
+
+.homme {
+	color: green;
+}
+
+.femme {
+	color: #8a2be2;
+}
